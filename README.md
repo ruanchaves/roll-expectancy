@@ -1,3 +1,5 @@
+# expectancy.py
+
 Programa feito para ilustrar a esperança matemática dos lançamentos de um dado honesto.
 
 ![](https://i.imgur.com/JkV1asn.gif)
