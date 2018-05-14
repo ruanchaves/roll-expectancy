@@ -8,11 +8,11 @@ Programa feito para ilustrar a esperança matemática dos lançamentos de um dad
 
 Matplotlib.
 
-> sudo apt-get install python3-matplotlib
+    sudo apt-get install python3-matplotlib
 
 ou
 
-> sudo -H pip3 install matplotlib
+    sudo -H pip3 install matplotlib
 
 # Uso
 
@@ -28,7 +28,7 @@ As imagens geradas serão criadas na mesma pasta onde o script é executado.
 
 O eixo y vai de 1 a 6 ( as faces do dado ) e o eixo x está em escala de log10.
 
-> python3 convergence.py 30 0
+    python3 convergence.py 30 0
 
 Depois rodamos:
 
