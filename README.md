@@ -20,7 +20,7 @@ E caso queira fazer GIFs:
 
 # Uso
 
-> python3 expectancy.py n b
+    python3 expectancy.py n b
 
 * **n** : Número de imagens a serem geradas.
 
