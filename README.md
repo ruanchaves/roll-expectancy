@@ -1,5 +1,7 @@
 Programa feito para ilustrar a esperança matemática dos lançamentos de um dado honesto.
 
+![](https://i.imgur.com/JkV1asn.gif)
+
 # Dependências
 
 Matplotlib.
@@ -33,3 +35,16 @@ Depois rodamos:
 E essa é a animação das 30 imagens geradas:
 
 ![](https://i.imgur.com/yhlNqzh.gif)
+
+Ou então, sem sobreposição:
+
+> python3 convergence.py 30 1
+>convert -resize 768x576 -delay 200 -loop 0 `ls -tr expectancy_*` animacao.gif
+
+E temos:
+
+![](https://i.imgur.com/JkV1asn.gif)
+
+# Detalhes
+
+* O método de geração dos números aleatórios, a quantidade de faces do dado e a altura da assíntota podem ser alterados nas configurações ao começo do arquivo.
