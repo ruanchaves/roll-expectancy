@@ -14,6 +14,10 @@ ou
 
     sudo -H pip3 install matplotlib
 
+E caso queira fazer GIFs:
+
+    sudo apt-get install imagemagick
+
 # Uso
 
 > python3 expectancy.py n b
