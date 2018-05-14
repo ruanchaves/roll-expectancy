@@ -32,7 +32,7 @@ O eixo y vai de 1 a 6 ( as faces do dado ) e o eixo x está em escala de log10.
 
 Depois rodamos:
 
->convert -resize 768x576 -delay 20 -loop 0 `ls -tr expectancy_*` animacao.gif
+    convert -resize 768x576 -delay 20 -loop 0 `ls -tr expectancy_*` animacao.gif
 
 E essa é a animação das 30 imagens geradas:
 
@@ -40,8 +40,8 @@ E essa é a animação das 30 imagens geradas:
 
 Ou então, sem sobreposição:
 
-> python3 convergence.py 30 1
->convert -resize 768x576 -delay 200 -loop 0 `ls -tr expectancy_*` animacao.gif
+    python3 convergence.py 30 1
+    convert -resize 768x576 -delay 200 -loop 0 `ls -tr expectancy_*` animacao.gif
 
 E temos:
 
