@@ -63,4 +63,6 @@ Exemplo: Dado de 20 faces, de 1 até 10^100 lançamentos, com esperança em 10.5
 
 Existe também uma versão que pode ser rodada da linha de comando e usa [hipsterplot](https://github.com/imh/hipsterplot) ao invés de pyplot.
 
-Ela está disponível no [repl.it](https://repl.it/@ruanchaves/hispter-expectancy) e pode ser executada de qualquer dispositivo com acesso a internet ( celulares, iPads, etc. )
+Ela está disponível no repl.it e pode ser executada de qualquer dispositivo com acesso a internet ( celulares, iPads, etc. )
+
+[Executar hipster-expectancy](https://repl.it/@ruanchaves/hispter-expectancy)
