@@ -67,4 +67,4 @@ Existe também uma versão que pode ser executada puramente na linha de comando 
 
 Ela está disponível no repl.it e pode ser executada de qualquer dispositivo com acesso a internet.
 
-[Executar hipster-expectancy](https://repl.it/@ruanchaves/hispter-expectancy)
+[Executar hipster-expectancy](https://repl.it/@ruanchaves/hipster-expectancy)
