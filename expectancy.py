@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import random
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -73,17 +76,17 @@ def main(times):
 		plt.axis([0,10^(INTERVALO),0,FACES])
 		dice = Dice()
 	
-	for i in range(1,BLOCO+1):
-		plt.subplot(BLOCO,1,i)
-		dice.series(INTERVALO)
-		plt.plot(dice.x, dice.y, random.choice(colors) )
-		plt.locator_params(axis='x', nbins=TICKS_X-1)
-		plt.locator_params(axis='y', nbins=TICKS_Y-1)	
-		plt.axhline(y=CONVERGENCIA, color='m', linestyle='--')
-		dice.clear()
-
-	plt.tight_layout()	
-	plt.savefig(PREFIXO + regex.sub('',str(datetime.now())) + FORMAT )
+		for i in range(1,BLOCO+1):
+			plt.subplot(BLOCO,1,i)
+			dice.series(INTERVALO)
+			plt.plot(dice.x, dice.y, random.choice(colors) )
+			plt.locator_params(axis='x', nbins=TICKS_X-1)
+			plt.locator_params(axis='y', nbins=TICKS_Y-1)	
+			plt.axhline(y=CONVERGENCIA, color='m', linestyle='--')
+			dice.clear()
+	
+		plt.tight_layout()	
+		plt.savefig(PREFIXO + regex.sub('',str(datetime.now())) + FORMAT )
 
 	if int(sys.argv[2]) == 1:
 		plt.clf()
