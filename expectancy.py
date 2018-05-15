@@ -3,17 +3,23 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import sys
 
+# Configurações
 
 # Determine aqui o número de faces.
 FACES = 6
+
+# Por padrão o eixo x vai de 0 a log 10^300, isto é, 300.
+INTERVALO = 300
 
 # RANDOM = 1 : números pseudoaleatórios criptograficamente seguros de /dev/urandom.
 # RANDOM = 0 :  números pseudoaleatórios da função random ( mais rápido ).
 RANDOM = 1
 
 
-# Valor da linha tracejada de convergência
+# Valor da linha tracejada de convergência.
 CONVERGENCIA = 3.5
+
+# Fim das configurações
 
 class Dice(object):
 
@@ -41,23 +47,23 @@ def main(times):
 
 	for i in range(0,times):
 
-		plt.axis([0,10^( (FACES//2) * 100),0,FACES])
+		plt.axis([0,10^(INTERVALO),0,FACES])
 		dice = Dice()
 		
 		plt.subplot(3,1,1)
-		dice.series(300)
+		dice.series(INTERVALO)
 		plt.plot(dice.x, dice.y, 'r' )
 		plt.axhline(y=CONVERGENCIA, color='m', linestyle='--')
 		dice.clear()
 	
 		plt.subplot(3,1,2)
-		dice.series(300)
+		dice.series(INTERVALO)
 		plt.plot(dice.x,dice.y, 'g' )
 		plt.axhline(y=CONVERGENCIA, color='m', linestyle='--')
 		dice.clear()
 	
 		plt.subplot(3,1,3)
-		dice.series(300)
+		dice.series(INTERVALO)
 		plt.plot(dice.x,dice.y, 'b' )
 		plt.axhline(y=CONVERGENCIA, color='m', linestyle='--')
 		dice.clear()
