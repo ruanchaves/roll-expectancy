@@ -53,4 +53,8 @@ E temos:
 
 # Detalhes
 
-* O método de geração dos números aleatórios, a quantidade de faces do dado e a altura da assíntota podem ser alterados nas configurações ao começo do arquivo.
+* O método de geração dos números aleatórios, a quantidade de faces do dado, a altura da assíntota e outras configurações podem ser alteradas configurações ao começo do arquivo.
+
+Exemplo: Dado de 12 faces, de 1 até 10^100 lançamentos, com esperança em 6.5, 5 gráficos de lançamento por imagem:
+
+![](https://i.imgur.com/73U6hvX.png)
