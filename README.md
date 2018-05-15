@@ -58,3 +58,9 @@ E temos:
 Exemplo: Dado de 20 faces, de 1 até 10^100 lançamentos, com esperança em 10.5, 5 gráficos de lançamento por imagem:
 
 ![](https://i.imgur.com/F4Odjt6.png)
+
+# hipster-expectancy
+
+Existe também uma versão que pode ser rodada da linha de comando e usa [hipsterplot](https://github.com/imh/hipsterplot) ao invés de pyplot.
+
+Ela está disponível no [repl.it](https://repl.it/@ruanchaves/hispter-expectancy) e pode ser executada de qualquer dispositivo com acesso a internet ( celulares, iPads, etc. )
