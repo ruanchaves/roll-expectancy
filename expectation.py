@@ -31,7 +31,7 @@ CONVERGENCIA = 10.5
 BLOCO = 5
 
 # Prefixo do arquivo salvo.
-PREFIXO = 'expectancy_'
+PREFIXO = 'expectation_'
 
 # Formato do arquivo salvo. Opções disponíveis: .png e .pdf.
 FORMAT = '.png'
