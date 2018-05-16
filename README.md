@@ -1,4 +1,4 @@
-# expectancy.py
+# expectation.py
 
 Programa feito para ilustrar a esperança matemática dos lançamentos de um dado honesto.
 
@@ -20,7 +20,7 @@ E caso queira fazer GIFs:
 
 # Uso
 
-    python3 expectancy.py n b
+    python3 expectation.py n b
 
 * **n** : Número de imagens a serem geradas.
 
@@ -32,11 +32,11 @@ As imagens geradas serão criadas na mesma pasta onde o script é executado.
 
 O eixo y vai de 1 a 6 ( as faces do dado ) e o eixo x está em escala de log10.
 
-    python3 convergence.py 30 0
+    python3 expectation.py 30 0
 
 Depois rodamos:
 
-    convert -resize 768x576 -delay 20 -loop 0 `ls -tr expectancy_*` animacao.gif
+    convert -resize 768x576 -delay 20 -loop 0 `ls -tr expectation_*` animacao.gif
 
 E essa é a animação das 30 imagens geradas:
 
@@ -44,8 +44,8 @@ E essa é a animação das 30 imagens geradas:
 
 Ou então, sem sobreposição:
 
-    python3 convergence.py 30 1
-    convert -resize 768x576 -delay 200 -loop 0 `ls -tr expectancy_*` animacao.gif
+    python3 expectation.py 30 1
+    convert -resize 768x576 -delay 200 -loop 0 `ls -tr expectation_*` animacao.gif
 
 E temos:
 
@@ -59,7 +59,7 @@ Exemplo: Dado de 20 faces, de 1 até 10^100 lançamentos, com esperança em 10.5
 
 ![](https://i.imgur.com/F4Odjt6.png)
 
-# hipster-expectancy
+# hipster-expectation
 
 ![](https://i.imgur.com/jmSl7UX.png)
 
@@ -67,4 +67,4 @@ Existe também uma versão que pode ser executada puramente na linha de comando 
 
 Ela está disponível no repl.it e pode ser executada de qualquer dispositivo com acesso a internet.
 
-[Executar hipster-expectancy](https://repl.it/@ruanchaves/hipster-expectancy)
+[Executar hipster-expectation](https://repl.it/@ruanchaves/hipster-expectation)
